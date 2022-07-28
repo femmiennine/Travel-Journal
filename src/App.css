@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  width: 545px;
+  height: 704px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin: auto;
+}
+
+/* HEADER */
+.header {
+  background: #F55A5A;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.world {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.travel--journal {
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* MAIN CONTENT */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+}
+
+.destination--photo {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  margin: 30px 0 0 20px;
+}
+
+.country {
+  font-size: 10px;
+  font-weight: 400;
+  margin: 0 0 0 4px;
+  letter-spacing: 2px;
+}
+
+.google--maps {
+  color: #918E9B;
+  font-size: 10px;
+  font-weight: 400;
+  margin-left: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+}
+
+.details--2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.tourist--spot {
+  margin: 5px 0 0 0;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.date {
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 12px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.about {
+  color: #2B283A;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: .8px;
 }
